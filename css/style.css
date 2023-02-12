@@ -1,0 +1,106 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.header {
+    height: 70px;
+    width: 500px;
+    background: #ccc;
+    padding: 20px;
+    margin: 50px auto 100px;
+    box-sizing: border - box;
+    text-shadow: 6px 4px 9px rgb(128, 33, 143);
+}
+
+.table {
+    font-family: "Lato", sans-serif;
+    border-collapse: collapse;
+    margin: 0 auto;
+    box-shadow: 4px 4px 8px #4bcccc;
+}
+
+.tableCell {
+    border: 1px solid rgb(41, 106, 170);
+    padding: 10px;
+    margin: 20;
+
+}
+
+.tableHeader {
+    background-color: #4bcccc;
+}
+
+.tableRow:nth-child(even) {
+    background: rgb(194, 225, 234);
+    background-color: aquamarine;
+}
+
+.tableRow:hover {
+    background-color: aquamarine;
+}
+
+.listItem {
+    margin: 10px 0px;
+}
+
+.orderlist {
+    list-style-position: inside;
+    background: rgb(42, 134, 183);
+}
+
+.dark {
+    color: white;
+    background: rgb(27, 25, 25);
+}
+
+.body {
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.image {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.button {
+    margin: 20px 20px;
+    background-color: rgb(112, 112, 196);
+}
+
+.switch {
+    color: rgb(10, 134, 134);
+    margin: 20px 20px;
+
+}
+
+.article {
+    max-width: 600px;
+    padding: 20px;
+    box-shadow: 3px 4px 9px #101212;
+    margin: 0 auto;
+}
+
+.article__paragraph {
+    color: rgb(10, 56, 81);
+}
+
+.article__dark {
+    background-color: rgb(120, 116, 195);
+}
+
+.footer {
+    list-style-position: inside;
+    background: grey;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
