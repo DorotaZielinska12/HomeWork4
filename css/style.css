@@ -72,18 +72,14 @@ html {
     border-radius: 10px;
 }
 
-.button {
-    margin: 20px 20px;
+.button--backgroundColor {
     background-color: rgb(112, 112, 196);
     text-align: center;
 }
 
 .switch {
     color: rgb(10, 134, 134);
-    margin: 20px 20px;
     text-Align: center;
-
-
 }
 
 .article {

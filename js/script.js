@@ -1,13 +1,22 @@
+{
+    const welcome = () => {
+        console.log("Hello!")
+    }
 
-const button = document.querySelector("button");
-const body = document.querySelector("body");
-const themeName = document.querySelector(".themeName");
+    const toggleBackground = () => {
+        const body = document.documentElement;
+        const nextColoreName = document.querySelector(".js-button__span--backroundColor");
 
-button.addEventListener("click", () => {
+        body.classList.toggle("dark");
+        themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
+    };
 
-    
-    body.classList.toggle("dark");
+    const init = () => {
+        const changeBackgroundButton = document.querySelector(".js-changeBackgroundColor");
+        changeBackgroundButton.addEventListener("click", toggleBackground);
 
-    themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
-});
+        welcome();
+    };
 
+    init();
+}
